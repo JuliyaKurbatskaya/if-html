@@ -62,36 +62,45 @@ margin: 20px 670px 88px;
 background-color: #FFFFFF;
 list-style: none;
 display: flex;
-justify-content: space-around;
-margin: 0;
-padding: 0;
 }
 
 .Support {
-position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
 width: 296px;
 height: 176px; 
-margin: 80px 1040px 122px 104px;
+margin-right: 94px;
 }
 
 .Communicate {
-position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
 width: 296px;
 height: 178px;
-margin: 80px 728px 120px 416px;
+margin-right: 16px;
 }
 
 .Book {
-position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
 width: 296px;
 height: 184px;
-margin: 80px 416px 114px 728px;
+margin-right: 81px;
 }
 .reviews {
-position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
 width: 296px;
 height: 183px;
-margin: 80px 103px 115px 1041px;
+margin-right: 103px;
 }
 
 .Support-image {
@@ -128,21 +137,19 @@ margin: 4px 102px 0px;
 }
 
 .Support-text {
-    position: absolute;
-    width: 141px;
-    height: 28px;
-    margin: 52px 78px 0px 77px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #383838;
+ width: 141px;
+ height: 28px;
+ margin: 52px 78px 0px 77px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #383838;
 }
 
 .Communicate-text {
-position: absolute;
 width: 296px;
 height: 28px;
 margin: 56px 0px 2px;
@@ -156,7 +163,6 @@ color: #383838;
 }
 
 .Book-text {
-position: absolute;
 width: 168px;
 height: 28px;
 margin: 64px 64px 8px;
@@ -170,7 +176,6 @@ color: #383838;
 }
 
 .reviews-text {
-position: absolute;
 width: 225px;
 height: 28px;
 margin: 60px 35px 7px 36px;

@@ -26,64 +26,73 @@
   }
   
   body {
-      background: #10367C;
-      width: 1440px;
-      height: 630px;
-      position: absolute;
-  }
-
-  .flex-container {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 0;
-  }
-  .about {
-      position: absolute;
-      width: 193px;
-      height: 211px;
-      margin: 120px 1143px 299px 104px;
-  }
-
-  .property {
-      position: absolute;
-      width: 133px;
-      height: 310px;
-      margin: 120px 787px 200px 520px;
-  }
-
-  .support {
-      position: absolute;
-      width: 233px;
-      height: 122px;
-      margin: 119px 272px 389px 935px;
-  }
-
-  .big-flex-item {
-      color: #FFFFFF;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 23,44px;  
-      margin-left: 0;
-  }
-
-  .flex-item {
-      color: #FFFFFF;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 23px;
-      margin: 0;
-  }
-  
-  p {
-    position: absolute;
     color: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
     width: 1440px;
     height: 630px;
-    margin: 494px 1081px 120px 103px;
-  }
+    background: #10367C;
+    padding-left: 104px;
+    padding-top: 102px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.flex-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about {
+    width: 193px;
+    height: 211px;
+    margin-right: 223px;
+}
+
+.property {
+    width: 133px;
+    height: 310px;
+    margin-right: 283px;
+}
+
+.support {
+    width: 233px;
+    height: 122px;
+}
+
+.big-flex-item {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23,44px;  
+    margin-left: 0;
+}
+
+.flex-item {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
