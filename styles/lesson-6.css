@@ -1,0 +1,133 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+/* основной контейнер*/
+section {
+background-image: url(../images/top-section-back.svg);
+box-sizing: border-box;
+background-size: cover;
+min-height: 100vh;
+overflow-y: hidden;
+
+}
+/* главный контейнер*/
+.big-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* контейнер trip*/
+.trip-house {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 205px;
+    height: 40px;
+    margin: 51px 104px 196px;
+    
+}
+
+.trip {
+    width: 205px;
+    height: 40px;
+    margin-right: 684px;
+}
+
+/* текст контейнера trip*/
+span {
+    font-size: 24px;
+    line-height: 28,13px;
+    font-weight: 400;
+    font-style: normal;
+    color:  #FFFFFF;
+    font-family: Roboto;
+    margin-right: 24px;
+}
+/*заголовок контейнера поиска*/
+h3 {
+    color:#FFFFFF;
+    width: 542px;
+    height: 118px;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 58.59px;
+    margin-right: 690px;
+    margin-bottom: 100px;
+
+}
+/*горизонтальная черта stay*/
+hr {
+    width: 50px;
+    height: 4px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #F5BD41;
+}
+/* картнка ночь */
+.Night {
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+/*картинка юзер*/
+.Account {
+    width: 40px;
+    height: 40px;
+}
+/* контейнер поиска*/
+.relax {
+    display: flex;
+    flex-direction: column;
+    width: 1232px;
+    height: 487px;
+    margin-left: 104px;
+    margin-bottom: 120px;
+}
+
+.form {
+    color: #FFFFFF;
+}
+
+.badge {
+    display: flex;
+justify-content: space-between;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google {
+    margin-right: 17px;
+}
