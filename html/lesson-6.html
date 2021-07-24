@@ -8,34 +8,34 @@
     <link rel="stylesheet" href="../styles/lesson-6.css">
 </head>
 <body>
-    <section>
         <div class="big-container">
             <div class="trip-house">
                 <img class="trip" src="../images/tripHouse.svg" alt="TripHouse">
-                <span>Stay<hr></span>
-                <span>Attractions</span>
-                <img class="Night" src="../images/Night.svg" alt="Night">
-                <img class="Account" src="../images/AccountCircle.svg" alt="AccountCircle">
+                <div class="trip-house-container">
+                <a class="text" href="#">Stays</a>
+                <a class="text" href="#"> Attractions</a>
+                <a class="Night" href="#"><img class="Night" src="../images/Night.svg" alt="Night"></a>
+                <a class="Account" href="#"><img class="Account" src="../images/AccountCircle.svg" alt="AccountCircle"></a>
             </div>
+        </div>
             <div class="relax">
             <h3>Discover stays <br> to live, work or just relax</h3>
-            <form action="/" method="GET"></form>
-              <div class="form">
-                 <label for="name">Your destination or hotel name</label>
-                  <label for="Check-in">Check-in — Check-out</label>
-                  <label for="quantity"></label><br>
-                  <input id="name" type="text" name="Your destination or hotel name" required placeholder="New York">
-                  <input id="Check-in" type="text" name="Check-in — Check-out" required placeholder="Tue 15 Sept — Sat 19 Sept">
-                  <input id="quantity" type="text"  required placeholder="2 Adults — 0 Children — 1 Room">
-                  <input type="submit" value="Search">
-              </div>  
+            <form action="/" method="GET">
+                <div class="lable">
+                  <label  id="hotel-name" for="name">Your destination or hotel name</label>
+                  <label  for="Check-in">Check-in — Check-out</label>
+                </div>
+                  <div class="forms">
+                  <input class="forms-input destination" id="name" type="text" name="Your destination or hotel name" required placeholder="New York">
+                  <input class="forms-input Check-in" id="Check-in" type="date" name="Check-in — Check-out" required placeholder="Check-in — Check-out">
+                  <input class="forms-input number" id="quantity" type="text"  required placeholder="2 Adults — 0 Children — 1 Room">
+                  <input type="submit" id="submit" value="Search"> 
+                </div>
             </form>
             <div class="badge">
-            <img class="google" src="../images/google-play-badge.svg" alt="google-play-badge">
-            <img class="app" src="../images/app-store-badge.svg" alt="app-store-badge">
+           <a class="google" href="#"><img src="../images/google-play-badge.svg" alt="google-play-badge"></a>
+            <a  href="#"><img src="../images/app-store-badge.svg" alt="app-store-badge"></a>
         </div>
         </div>
-        </div>
-    </section>
 </body>
 </html>

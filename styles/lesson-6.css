@@ -29,47 +29,54 @@
     padding: 0;
 }
 /* основной контейнер*/
-section {
+body {
 background-image: url(../images/top-section-back.svg);
 box-sizing: border-box;
 background-size: cover;
 min-height: 100vh;
-overflow-y: hidden;
-
+height: 900px;
+/*width: 1440px;*/
 }
 /* главный контейнер*/
 .big-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: 1232px;
+    height: 46px;
 }
 /* контейнер trip*/
 .trip-house {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
-    width: 205px;
-    height: 40px;
-    margin: 51px 104px 196px;
+   margin: 51px 104px 196px;
     
+}
+
+.trip-house-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
 }
 
 .trip {
     width: 205px;
     height: 40px;
-    margin-right: 684px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 640px;
 }
 
 /* текст контейнера trip*/
-span {
+.text {
     font-size: 24px;
-    line-height: 28,13px;
     font-weight: 400;
     font-style: normal;
     color:  #FFFFFF;
     font-family: Roboto;
     margin-right: 24px;
+    text-decoration: none;
 }
 /*заголовок контейнера поиска*/
 h3 {
@@ -80,26 +87,20 @@ h3 {
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
-    line-height: 58.59px;
+    line-height: 59px;
     margin-right: 690px;
     margin-bottom: 100px;
 
 }
-/*горизонтальная черта stay*/
-hr {
-    width: 50px;
-    height: 4px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-   background-color: #F5BD41;
+.trip-house-container a:hover {
+    border-bottom: 4px solid #F5BD41;
 }
-/* картнка ночь */
+
+/* картинка ночь */
 .Night {
     width: 30px;
     height: 30px;
     margin-right: 24px;
-    margin-left: 24px;
 }
 /*картинка юзер*/
 .Account {
@@ -114,20 +115,89 @@ hr {
     height: 487px;
     margin-left: 104px;
     margin-bottom: 120px;
+    margin-right: 113px;
 }
 
-.form {
-    color: #FFFFFF;
+.lable {
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 24px;
 }
+
+#hotel-name {
+    margin-left: 24px;
+    margin-right: 221px;
+}
+
+.forms {
+    width: 1223px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    color: #383838;
+    background-color: #FFFFFF;
+    margin-bottom: 120px;
+}
+
+.forms-input {
+    border:none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+ 
+.destination {
+   border-radius: 8px;
+    padding-left: 24px;
+    width: 440px;
+}
+
+.Check-in {
+    width: 259px;
+    text-align: center;
+}
+
+.number {
+    width: 314px;
+    text-align: center;
+
+}
+
+#submit {
+    color: #FFFFFF;
+    background-color: #3077C6;
+    border-radius: 8px;
+    text-align: center;
+    width: 192px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+}
+
+.forms-input:hover {
+    border-radius: 8px;
+    border: 3px solid #F5BD41;
+}
+
+#submit:hover {
+    border: 3px solid #F5BD41;
+}
+
+
 
 .badge {
     display: flex;
 justify-content: space-between;
-    margin-top: 120px;
+   /* margin-top: 120px;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 .google {
-    margin-right: 17px;
+   padding-right: 16px;
 }
