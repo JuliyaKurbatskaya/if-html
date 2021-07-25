@@ -34,38 +34,44 @@ background-image: url(../images/top-section-back.svg);
 box-sizing: border-box;
 background-size: cover;
 min-height: 100vh;
+background-repeat: no-repeat;
+background-position: 0 0;
 height: 900px;
-/*width: 1440px;*/
+display: flex;
+justify-content: space-between;
+flex-direction: column;
 }
-/* главный контейнер*/
-.big-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 1232px;
-    height: 46px;
+
+.container {
+    width: 100%;
+    max-width: 1232px;
 }
+
 /* контейнер trip*/
 .trip-house {
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   width: 1232px;
+   height: 46px;
+  box-sizing: border-box;
    margin: 51px 104px 196px;
-    
+
 }
 
 .trip-house-container {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+   /*align-items: flex-end;*/
+   justify-content: flex-end;
     list-style: none;
 }
 
 .trip {
     width: 205px;
     height: 40px;
-    display: flex;
+    /*display: flex;
     justify-content: flex-start;
-    margin-right: 640px;
+    align-items: flex-start;*/
 }
 
 /* текст контейнера trip*/
@@ -88,7 +94,6 @@ h3 {
     font-weight: 500;
     font-style: normal;
     line-height: 59px;
-    margin-right: 690px;
     margin-bottom: 100px;
 
 }
@@ -133,7 +138,7 @@ h3 {
 }
 
 .forms {
-    width: 1223px;
+    width: 100%;
     height: 64px;
     border-radius: 8px;
     display: flex;
@@ -152,16 +157,16 @@ h3 {
 .destination {
    border-radius: 8px;
     padding-left: 24px;
-    width: 440px;
+    width: 35%; /*440px;*/
 }
 
 .Check-in {
-    width: 259px;
+    width: 25%; /*259px;*/
     text-align: center;
 }
 
 .number {
-    width: 314px;
+    width: 25%; /*314px;*/
     text-align: center;
 
 }
@@ -171,7 +176,7 @@ h3 {
     background-color: #3077C6;
     border-radius: 8px;
     text-align: center;
-    width: 192px;
+    width: 15%; /*192px;*/
     font-size: 24px;
     line-height: 28px;
     font-weight: 500;
@@ -192,10 +197,7 @@ h3 {
 
 .badge {
     display: flex;
-justify-content: space-between;
-   /* margin-top: 120px;*/
-    margin-left: auto;
-    margin-right: auto;
+justify-content: center;
 }
 
 .google {
