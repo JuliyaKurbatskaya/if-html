@@ -67,17 +67,15 @@ display: flex;
 .Support {
 display: flex;
 justify-content: space-between;
-align-items: center;
 flex-direction: column;
 width: 296px;
-height: 176px; 
+height: 176px;
 margin-right: 94px;
 }
 
 .Communicate {
 display: flex;
 justify-content: space-between;
-align-items: center;
 flex-direction: column;
 width: 296px;
 height: 178px;
@@ -87,7 +85,6 @@ margin-right: 16px;
 .Book {
 display: flex;
 justify-content: space-between;
-align-items: center;
 flex-direction: column;
 width: 296px;
 height: 184px;
@@ -96,7 +93,6 @@ margin-right: 81px;
 .reviews {
 display: flex;
 justify-content: space-between;
-align-items: center;
 flex-direction: column;
 width: 296px;
 height: 183px;

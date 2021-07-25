@@ -54,7 +54,7 @@ flex-direction: column;
    justify-content: space-between;
    width: 1232px;
    height: 46px;
-  box-sizing: border-box;
+   box-sizing: border-box;
    margin: 51px 104px 196px;
 
 }
@@ -62,17 +62,14 @@ flex-direction: column;
 .trip-house-container {
     display: flex;
     flex-direction: row;
-   /*align-items: flex-end;*/
    justify-content: flex-end;
     list-style: none;
+
 }
 
 .trip {
     width: 205px;
     height: 40px;
-    /*display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;*/
 }
 
 /* текст контейнера trip*/
@@ -111,12 +108,14 @@ h3 {
    margin-right: 24px;
    padding-top: 5px;
    padding-bottom: 11px;
+   fill:#FFFFFF;
 }
 /*картинка юзер*/
 .Account {
     width: 40px;
     height: 40px;
     padding-bottom: 6px;
+    fill:#FFFFFF;
 }
 /* контейнер поиска*/
 .relax {
@@ -163,16 +162,16 @@ h3 {
 .destination {
    border-radius: 8px;
     padding-left: 24px;
-    width: 35%; /*440px;*/
+    width: 35%; 
 }
 
 .Check-in {
-    width: 25%; /*259px;*/
+    width: 25%;
     text-align: center;
 }
 
 .number {
-    width: 25%; /*314px;*/
+    width: 25%;
     text-align: center;
 
 }
@@ -182,7 +181,7 @@ h3 {
     background-color: #3077C6;
     border-radius: 8px;
     text-align: center;
-    width: 15%; /*192px;*/
+    width: 15%;
     font-size: 24px;
     line-height: 28px;
     font-weight: 500;
