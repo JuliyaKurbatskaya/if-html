@@ -96,3 +96,17 @@ p {
   line-height: 16px;
   font-weight: 400;
 }
+
+@media screen (max-widht: 865px) {
+    .container {
+        widht: 400px;
+    }
+    footer .flex-item {
+        display: none;
+    }
+
+
+    footer p {
+        text-align: center;
+}
+}

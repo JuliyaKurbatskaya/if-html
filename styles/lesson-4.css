@@ -31,7 +31,7 @@
     padding: 0;
     }
     
-body {
+section {
 background-color: #FFFFFF;
 width: 1440px;
 height: 569px;
@@ -100,35 +100,27 @@ margin-right: 103px;
 }
 
 .Support-image {
-top: 4.17%;
-right: 12.5%;
-bottom: 4.17%;
-left: 12.5%;
+  width: 76px;
+  height: 92px;
 margin: 4px 110px 0px;
 }
 
 .Communicate-image {
-left: 8.33%;
-right: 8.33%;
-top: 8.33%;
-bottom: 8.33%;
+  width: 84px;
+  height: 84px;
 margin: 8px 107px 0px 105px;
 
 }
 
 .Book-image {
-left: 0%;
-right: 0%;
-top: 16,67%;
-bottom: 16,67%;
+  width: 100px;
+  height: 68px;
 margin: 16px 98px 0px;
 }
 
 .reviews-image {
-left: 4.17%;
-right: 4.17%;
-top: 4.17%;
-bottom: 12.5%;
+  width: 92px;
+  height: 84px;
 margin: 4px 102px 0px;
 }
 
@@ -185,3 +177,23 @@ color: #383838;
 }
 
 
+@media (max-widht: 2560px) {
+  
+}
+
+@media (max-widht:475px) {
+  section {
+    margin: 24px 73px 40px;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+}
+
+
+  
+
+
+  
